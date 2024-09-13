@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mağaza Adresleri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .store-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .store {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .store img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .store h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .store a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .store a:hover {
+            background-color: #218838;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .store {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mağazalarımız</h1>
+    <div class="store-list">
+        <!-- Mağaza 1 -->
+        <div class="store">
+            <img src="Şubeler Image/" alt="Merkez Şube">
+            <h2>Merkez Şube</h2>
+            <p>50.yıl Mah. 2151 sokak. No:22 Sultangazi/İstanbul</p>
+            <a href="https://maps.app.goo.gl/7oeFyGz1ju4nXJNX8" target="_blank">Haritada Gör</a>
+        </div>
+        <!-- Mağaza 2 -->
+        <div class="store">
+            <img src="Şubeler Image/Umraniye-1.jpeg" alt="Ümraniye - 1">
+            <h2>Şube-1: Ümraniye</h2>
+            <p>Altınşehir, Şenel Cd. no:77/b, 34775 Ümraniye/İstanbul</p>
+            <p>İletişim tel: 05322544047</p>
+            <a href="https://maps.app.goo.gl/Nns2ACQ117E8xnkLA" target="_blank">Haritada Gör</a>
+        </div>
+        <!-- Mağaza 3 -->
+        <div class="store">
+            <img src="Şubeler Image/Umraniye-2.jpeg" alt="Ümraniye - 2">
+            <h2>Şube-2: Ümraniye</h2>
+            <p>Armağan evler mahallesi akdeniz caddesi no 9/A. Ümraniye/İstanbul</p>
+            <p>İletişim tel: 05322544047</p>
+            <a href="https://maps.app.goo.gl/CJxw3Sf7dEfikyP56" target="_blank">Haritada Gör</a>
+        </div>
+        <!-- Mağaza 4 -->
+        <div class="store">
+            <img src="Şubeler Image/Esenyurt.jpeg" alt="Esenyurt">
+            <h2>Şube-3: Esenyurt</h2>
+            <p>Güzelyurt Mah. Ertuğrul gazi Caddesi. No:25 Esenyurt/İstanbul</p>
+            <p>İletişim tel: 05355479373</p>
+            <a href="https://maps.app.goo.gl/n6PY59dVacMEMzQh8" target="_blank">Haritada Gör</a>
+        </div>
+        <!-- Mağaza 5 -->
+        <div class="store">
+            <img src="Şubeler Image/Bagcilar.jpeg" alt="Bağcılar">
+            <h2>Şube-4: Bağcılar</h2>
+            <p>Merkez Mah. Güngören Caddesi No:5/B Bağcılar/İstanbul</p>
+            <p>İletişim tel: 05010663202</p>
+            <a href=" " target="_blank">Haritada Gör</a>
+        </div>
+        <!-- Mağaza 6 -->
+        <div class="store">
+            <img src="Şubeler Image/Esenler.jpeg" alt="Esenler">
+            <h2>Şube-5: Esenler</h2>
+            <p>Kemer Mahallesi Şahin bey Cad No:32/B Esenler/İstanbul</p>
+            <p>İletişim tel: 05379787744</p>
+            <a href="https://maps.app.goo.gl/44Qtoh43D2wQvXqc6" target="_blank">Haritada Gör</a>
+        </div>
+        <!-- Mağaza 7 -->
+        <div class="store">
+            <img src="Şubeler Image/Sefakoy.jpeg" alt="Sefaköy">
+            <h2>Şube-6: Sefaköy</h2>
+            <p>Kartaltepe Mah. 2.Namık kemal Cad.No:31/A Sefaköy/İstanbul (Küçükçekmece kaymakamlığının arka caddesi)</p>
+            <p>İletişim tel: 05368374884</p>
+            <a href="https://maps.app.goo.gl/NdrM6Gi3QJqKuunU8" target="_blank">Haritada Gör</a>
+        </div>
+        <!-- Mağaza 8 -->
+        <div class="store">
+            <img src="Şubeler Image/Kagithane.jpeg" alt="Kağıthane">
+            <h2>Şube-7: Kağıthane</h2>
+            <p>Şirin tepe Mahallesi. Gümüşhane Caddesi No:41/B Kağıthane/İstanbul</p>
+            <p>İletişim tel: 05304420316</p>
+            <a href="https://maps.app.goo.gl/YR57V5oajp5jdnUt8" target="_blank">Haritada Gör</a>
+        </div>
+        <!-- Mağaza 9 -->
+        <div class="store">
+            <img src="Şubeler Image/pendik.jpeg" alt="Pendik">
+            <h2>Şube-8: Pendik</h2>
+            <p>Fevzi çakmak Mahallesi. Sefir sokak. Mürsel polat apartmanı.3/7 Pendik/İstanbul</p>
+            <p>İletişim tel: 05322544047</p>
+            <a href="https://maps.app.goo.gl/zqFosbJayrdm5Gud9?g_st=iw" target="_blank">Haritada Gör</a>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
